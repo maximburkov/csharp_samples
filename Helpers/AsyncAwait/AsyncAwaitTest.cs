@@ -93,5 +93,13 @@ namespace Helpers.AsyncAwait
             t__builder.Start(ref stateMachine);
             return stateMachine.t__builder.Task;
         }
+
+
+        public static async Task<int> TestAsyncBefore()
+        {
+            var res = 42;
+            await Task.Delay(1000);
+            return res;
+        }
     }
 }
