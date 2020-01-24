@@ -10,9 +10,10 @@ namespace Helpers
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            //TODO: test here
+
 
             Console.ReadKey();
         }
